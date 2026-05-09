@@ -23,7 +23,7 @@ main {
     height: 100%;
     width: 100%;
     background: var(--bg-color);
-    padding-inline: 2rem;
+    padding-inline: 6rem;
 }
 
 nav {
@@ -62,13 +62,96 @@ nav .nav-right {
     gap: 2rem;
 }
 
-.hero .hero-left {}
+.hero .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.hero .hero-left .new {
+    font-weight: 600;
+    color: var(--btn-color);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.hero .hero-left h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-block: 0.5rem;
+}
+
+.hero .hero-left h1 span {
+    color: var(--btn-color);
+    padding-left: 0.5rem;
+}
+
+.hero .hero-left .price {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.hero .hero-left hr {
+    width: 100%;
+    height: 1px;
+    color: var(--txt-color);
+    opacity: 0.3;
+    margin-block: 1rem;
+}
+
+.hero .hero-left h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.hero .hero-left p {
+    font-weight: 400;
+    color: var(--txt-color);
+    opacity: 0.8;
+    padding-block: 1rem;
+    font-size: 0.8rem;
+    line-height: 18px;
+}
+
+.hero .hero-left h4 i {
+    color: var(--btn-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.hero .hero-left .dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: var(--txt-color);
+}
+
+.hero .hero-left .dropdown i{
+    color: var(--txt-color);
+}
+
+.hero-center {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-center img {
+    width: 90%;
+}
 
 .hero .hero-right {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .hero .hero-right h3 {
@@ -124,17 +207,18 @@ nav .nav-right {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.hero .hero-right .color-img-thumbs{
+
+.hero .hero-right .color-img-thumbs {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap:1rem;
-    margin-block:2rem;
+    gap: 1rem;
+    margin-block: 2rem;
     text-align: center;
 }
 
-.hero .hero-right .color-img-thumbs h5{
+.hero .hero-right .color-img-thumbs h5 {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.6rem;
@@ -143,15 +227,17 @@ nav .nav-right {
 
 
 .hero .hero-right img {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     aspect-ratio: 1/1;
     object-fit: center;
     object-position: cover;
     border-radius: 0.5rem;
     cursor: pointer;
 }
-.hero .hero-right .color-img-thumbs .thumb1 img,.hero .hero-right img:hover {
+
+.hero .hero-right .color-img-thumbs .thumb1 img,
+.hero .hero-right img:hover {
     border: 1px solid var(--btn-color);
 }
 
@@ -163,21 +249,23 @@ nav .nav-right {
     justify-content: center;
     gap: 0.3rem;
     margin-block: 1rem;
-    border:none;
+    border: none;
     text-transform: uppercase;
     cursor: pointer;
 }
+
 .hero .hero-right .add-to-wishlist:active,
 .hero .hero-right .add-to-bag:active {
     transform: scale(0.95);
 }
+
 .hero .hero-right .add-to-wishlist {
     padding-block: 0.4rem;
     padding-inline: 1rem;
     background-color: transparent;
     border: 2px solid var(--bg2-color);
     color: var(--txt-color);
-    font-size:0.6rem;
+    font-size: 0.6rem;
     font-weight: 600;
 }
 
@@ -187,10 +275,12 @@ nav .nav-right {
     background-color: transparent;
     background: var(--btn-color);
     color: var(--btn2-color);
-    font-size:0.8rem;
+    font-size: 0.8rem;
 }
-.hero .hero-right .add-to-bag i, .hero .hero-right .add-to-wishlist i{
-    font-size:1rem;
+
+.hero .hero-right .add-to-bag i,
+.hero .hero-right .add-to-wishlist i {
+    font-size: 1rem;
 }
 
 
