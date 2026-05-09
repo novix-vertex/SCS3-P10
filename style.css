@@ -2,6 +2,7 @@
     --bg-color: #FAF4ED;
     --bg2-color: #F6EFE8;
     --bg3-color: #F8F1E9;
+    --bg4-color: #d5d4d2;
     --btn-color: #E75C01;
     --btn2-color: #F5EDE5;
     --txt-color: #171716;
@@ -24,6 +25,7 @@ main {
     width: 100%;
     background: var(--bg-color);
     padding-inline: 6rem;
+    padding-block: 1rem;
 }
 
 nav {
@@ -234,6 +236,7 @@ nav .nav-right {
     object-position: cover;
     border-radius: 0.5rem;
     cursor: pointer;
+    padding:5px;
 }
 
 .hero .hero-right .color-img-thumbs .thumb1 img,
@@ -327,7 +330,7 @@ footer .top {
     background: var(--bg2-color);
     border-radius: 1rem;
     width: 100%;
-    border-bottom: 1px solid var(--btn-color);
+    border-bottom: 1px solid var(--bg4-color);
     padding: 1rem;
 }
 
@@ -365,7 +368,7 @@ footer .bottom {
     background: var(--bg2-color);
     border-radius: 1rem;
     width: 100%;
-    border-top: 1px solid var(--btn-color);
+    border-top: 1px solid var(--bg4-color);
 }
 
 footer .qualities {
