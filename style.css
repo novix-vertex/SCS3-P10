@@ -35,6 +35,10 @@ nav {
     justify-content: space-between;
 }
 
+nav .nav-left .logo{
+    width:160px;
+}
+
 nav menu {
     display: flex;
     justify-content: center;
@@ -133,9 +137,9 @@ nav .nav-right {
     color: var(--txt-color);
 }
 
-.hero .hero-left .dropdown i{
+.hero .hero-left .dropdown i {
     color: var(--txt-color);
-    opacity:0.6;
+    opacity: 0.6;
 }
 
 .hero-center {
@@ -237,7 +241,7 @@ nav .nav-right {
     object-position: cover;
     border-radius: 0.5rem;
     cursor: pointer;
-    padding:5px;
+    padding: 5px;
 }
 
 .hero .hero-right .color-img-thumbs .thumb1 img,
@@ -280,12 +284,11 @@ nav .nav-right {
     background: var(--btn-color);
     color: var(--btn2-color);
     font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .hero .hero-right .add-to-bag i,
 .hero .hero-right .add-to-wishlist i {
-    opacity:0.6;
-    color: var(--txt-color);
     font-size: 1rem;
 }
 
@@ -310,13 +313,15 @@ nav .nav-right {
     font-size: 2rem;
     font-weight: 400;
     color: var(--txt-color);
-    opacity:0.6;
+    opacity: 0.6;
 }
 
 .features div h4 {
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 600;
     text-transform: uppercase;
+    color: var(--txt-color);
+    opacity: 0.6;
 }
 
 footer {
@@ -387,7 +392,7 @@ footer .qualities {
 footer .bottom i {
     font-size: 2rem;
     color: var(--txt-color);
-    opacity:0.6;
+    opacity: 0.6;
 }
 
 footer .bottom .f-right,
