@@ -1,0 +1,26 @@
+:root {
+    --bg-color: #FAF4ED;
+    --bg2-color: #F6EFE8;
+    --bg3-color: #F8F1E9;
+    --btn-color: #E75C01;
+    --btn2-color: #F5EDE5;
+    --txt-color: #171716;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
