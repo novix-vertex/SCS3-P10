@@ -56,6 +56,33 @@ nav .nav-right {
     gap: 1.5rem;
 }
 
+.features {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-block:2rem;
+}
+
+.features div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+}
+
+.features div i {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.features div h4 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 footer {
     display: flex;
     flex-direction: column;
