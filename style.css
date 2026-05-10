@@ -3,6 +3,7 @@
     --bg2-color: #F6EFE8;
     --bg3-color: #F8F1E9;
     --bg4-color: #d5d4d2;
+    --bg5-color: #E88534;
     --btn-color: #E75C01;
     --btn2-color: #F5EDE5;
     --txt-color: #171716;
@@ -18,6 +19,8 @@
 html,
 body {
     width: 100%;
+    background-color: var(--bg5-color);
+    padding:1rem;
 }
 
 main {
@@ -26,6 +29,7 @@ main {
     background: var(--bg-color);
     padding-inline: 6rem;
     padding-block: 1rem;
+    border-radius: 1rem;
 }
 
 nav {
