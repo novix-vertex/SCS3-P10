@@ -36,7 +36,7 @@ nav {
 }
 
 nav .nav-left .logo{
-    width:160px;
+    width:100px;
 }
 
 nav menu {
@@ -59,6 +59,7 @@ nav .nav-right {
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
+    padding-right:3rem;
 }
 
 .hero {
