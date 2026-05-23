@@ -20,7 +20,7 @@ html,
 body {
     width: 100%;
     background-color: var(--bg5-color);
-    padding:1rem;
+    /* padding:1rem; */
 }
 
 main {
@@ -29,7 +29,7 @@ main {
     background: var(--bg-color);
     padding-inline: 6rem;
     padding-block: 1rem;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
 }
 
 nav {
